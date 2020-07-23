@@ -1,0 +1,11 @@
+.teaser {
+  display: block;
+  width: 50%;
+  margin: 18% auto 0;
+}
+@media (max-width: 32em) {
+  .teaser {
+    width: 80%;
+    margin-top: 66%;
+  }  
+}
