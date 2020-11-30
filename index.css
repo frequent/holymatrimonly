@@ -772,7 +772,7 @@ footer:before {
   width: 4em;
   position: absolute;
   top: 22vh;
-  margin-top: -14vh;
+  margin-top: 0;
   margin-left: 24vh;
 }
 @media only screen and (min-width: 84em) {
@@ -784,7 +784,8 @@ footer:before {
   }
 }
 .scene-bee {
-  height: 0;
+  position: absolute;
+  height: 10em;
   width: 100%;
   z-index: 10;
   text-align: right;
@@ -1065,6 +1066,9 @@ footer:before {
   }
 }
 /* ------------------------ Questionnaire -.--------------------------------- */
+.theme-questions h2 {
+  margin-bottom: 1em;
+}
 .theme-questions .page-card-first {
   position: relative;
 }
@@ -1123,7 +1127,7 @@ footer:before {
 .field-label-fullwidth + input,
 .field-label-fullwidth + input:focus,
 .field-label-fullwidth + input:active {
-  width: 80%;
+  width: 100%;
   background: transparent;
   border: 0 none;
   font-family: Helvetica;
@@ -1148,14 +1152,14 @@ footer:before {
 }
 .field-label-stack {
   display: inline-block;
-  width: 70%;
-  margin: .25em;
-  padding-left: 4em;
+  width: 80%;
+  margin: .25em 0;
 }
-@media only screen and (max-width: 48em) {
-  .field-label-stack {
-    padding-left:1.25em;
-  }
+
+.page-card-form-field {
+  padding: 0 6vh;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .page-card-form-button {
   display: block;
@@ -1325,7 +1329,7 @@ header,
   color: #88B150;
 }
 .theme-questions {
-  background-color: #EBD5EC;
+  background-color: #E1D0E2;
 }
 .theme-questions h2,
 .theme-questions h3,
