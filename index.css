@@ -1471,8 +1471,10 @@ input::placeholder {
   width: auto;
   margin-left: auto;
   margin-right: auto;
+  /* 
   scroll-snap-align: start;
   overflow: hidden;
+  */
 }
 .page-crockery fieldset {
   padding: 0;
