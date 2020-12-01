@@ -743,6 +743,9 @@ footer:before {
 .page-card-image {
   height: 100vh;
 }
+.theme-venue {
+  text-align: right;
+}
 .theme-venue .page-header {
   margin-bottom: 1em;
 }
@@ -754,9 +757,8 @@ footer:before {
 .theme-venue .page-card-text.text-basketcase {
   padding: 0.25em 0;
 }
-.theme-venue .page-card:last-child {
-  text-align: right;
-  margin-left: 4px;
+.theme-venue .page-card-first {
+  text-align: left;
 }
 .theme-venue .text-emphasis {
   text-decoration: none;
@@ -984,6 +986,9 @@ footer:before {
   margin-right: auto;
   margin-top: -10vh;
   width: 32vh;
+}
+.parasol {
+  height: 40vh;
 }
 .scene-parasol {
   height: 0px;
