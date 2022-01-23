@@ -719,6 +719,27 @@ footer:before {
  }
 }
 
+/* ----------------------------  Poke --------------------------------------- */
+.image-syringe {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+}
+@media only screen and (max-width: 48em) {
+  .image-syringe {
+    width: 35%;
+  }
+  .theme-event .page-card-text {
+    font-size: .9em;
+  }
+}
+@media only screen and (max-width: 32em) {
+  .image-syringe {
+    width: 50%;
+  }
+}
+
 /* -------------------------  BabbyBuggy ------------------------------------ */
 .image-babybuggy {
   text-align: center;
@@ -950,6 +971,11 @@ footer:before {
 }
 .candlebar {
   height: 32vh;
+  display: block;
+  margin: 0 auto;
+}
+.fence {
+  height: 76vh;
   display: block;
   margin: 0 auto;
 }
@@ -1245,6 +1271,18 @@ nav {
 header,
 .theme-landing {
   background-color: #EEF6F2;
+}
+.theme-covid {
+  background-color: #ECEBEA;
+}
+.theme-covid h2,
+.theme-covid h3,
+.theme-covid li,
+.theme-covid a,
+.theme-covid a:active,
+.theme-covid a:visited,
+.theme-covid a:hover {
+  color: #1C346C;
 }
 .theme-event {
   background-color: #f5eeea;
